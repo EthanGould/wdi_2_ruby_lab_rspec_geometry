@@ -14,7 +14,7 @@ class Triangle
   end
 
   def valid?
-    c < a + b ? true : false
+    c < a + b
   end
 
   private
