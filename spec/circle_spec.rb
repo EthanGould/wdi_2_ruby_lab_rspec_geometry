@@ -17,9 +17,12 @@ describe Circle do
 
   it 'finds the circumference from radius' do
     expect(@circle.circumference).to eq 31.41592653589793
+    #expect(@circle.circumference).to be_within(0.01).of(31.42)
 
     expect(@second_circle.circumference).to eq 62.83185307179586
+    #expect(@second_circle.circumference).to be_within(0.01).of(62.83)
 
     expect(@third_circle.circumference).to eq 43.982297150257104
+    #expect(@third_circle.circumference).to be_within(0.01).of(43.98)
   end
 end
