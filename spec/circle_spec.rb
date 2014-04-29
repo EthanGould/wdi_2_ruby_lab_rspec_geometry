@@ -25,4 +25,12 @@ describe Circle do
     expect(@third_circle.circumference).to eq 43.982297150257104
     #expect(@third_circle.circumference).to be_within(0.01).of(43.98)
   end
+
+  it 'finds the area of a circle' do
+    expect(@circle.area).to eq 78.53981633974483
+
+    expect(@second_circle.area).to eq 314.1592653589793
+
+    expect(@third_circle.area).to eq 153.93804002589985
+  end
 end
