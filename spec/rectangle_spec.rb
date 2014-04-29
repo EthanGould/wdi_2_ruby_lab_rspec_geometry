@@ -17,4 +17,9 @@ describe Rectangle do
     expect(@first_rectangle.perimeter).to eq 30
     expect(@second_rectangle.perimeter).to eq 74
   end
+
+  it 'calculates its area' do
+    expect(@first_rectangle.area).to eq 50
+    expect(@second_rectangle.area).to eq 322
+  end
 end
